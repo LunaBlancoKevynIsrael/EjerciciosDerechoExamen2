@@ -28,6 +28,5 @@ public class Ejercicio14_SueldosEmpleados {
         }
         System.out.println("Total pagado a todos los empleados en los últimos 3 meses: $" + String.format("%.2f", totalPagado));
         System.out.println("Empleado con mayor ingreso acumulado: " + empleados[idxMax] + " con $" + String.format("%.2f", acumulados[idxMax]));
-        sc.close();
     }
 }
