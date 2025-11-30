@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Ejercicio16_TiendaRopa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String[][] tabla = new String[3][3]; // 3 artículos x 3 columnas (Artículo, Talla, Color)
+        String[][] tabla = new String[3][3];
         for (int i = 0; i < 3; i++) {
             System.out.print("Ingrese nombre del artículo " + (i+1) + " (ej. Camisa): ");
             tabla[i][0] = sc.next();
@@ -16,6 +16,5 @@ public class Ejercicio16_TiendaRopa {
         for (int i = 0; i < 3; i++) {
             System.out.println(tabla[i][0] + "\t" + tabla[i][1] + "\t" + tabla[i][2]);
         }
-        sc.close();
     }
 }
