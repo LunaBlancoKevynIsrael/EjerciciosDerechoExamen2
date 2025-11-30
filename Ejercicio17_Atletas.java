@@ -24,6 +24,5 @@ public class Ejercicio17_Atletas {
             System.out.println(fila);
         }
         System.out.println("\nMejor tiempo: " + nombre[idxMejor] + " " + apellido[idxMejor] + " con " + tiempo[idxMejor] + "s");
-        sc.close();
     }
 }
