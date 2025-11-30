@@ -46,6 +46,5 @@ public class Ejercicio03_CajeroEnergia {
                 }
             }
         }
-        sc.close();
     }
 }
