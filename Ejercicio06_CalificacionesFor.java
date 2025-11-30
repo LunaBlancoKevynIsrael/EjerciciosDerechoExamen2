@@ -14,6 +14,5 @@ public class Ejercicio06_CalificacionesFor {
         System.out.println("Aprobados: " + aprobados);
         System.out.println("Reprobados: " + reprobados);
         System.out.println("Promedio del grupo: " + String.format("%.2f", promedio));
-        sc.close();
     }
 }
