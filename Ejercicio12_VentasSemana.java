@@ -15,6 +15,5 @@ public class Ejercicio12_VentasSemana {
         }
         System.out.println("Venta total de la semana: $" + String.format("%.2f", total));
         System.out.println("Día con mayor venta: Día " + (diaMayor+1) + " con $" + String.format("%.2f", ventas[diaMayor]));
-        sc.close();
     }
 }
