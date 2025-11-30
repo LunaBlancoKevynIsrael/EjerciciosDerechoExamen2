@@ -31,6 +31,5 @@ public class Ejercicio15_TemperaturasPaises {
             System.out.println(paises[i] + ": " + String.format("%.2f", medias[i]));
         }
         System.out.println("País con mayor temperatura media trimestral: " + paises[idxMax] + " (" + String.format("%.2f", medias[idxMax]) + ")");
-        sc.close();
     }
 }
