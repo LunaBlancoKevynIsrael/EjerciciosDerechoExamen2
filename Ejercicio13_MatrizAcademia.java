@@ -22,6 +22,5 @@ public class Ejercicio13_MatrizAcademia {
             }
             System.out.println();
         }
-        sc.close();
     }
 }
