@@ -21,6 +21,5 @@ public class Ejercicio04_Retiros {
                 System.out.println("Operación finalizada. Gracias.");
             }
         }
-        sc.close();
     }
 }
