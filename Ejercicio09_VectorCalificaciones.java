@@ -15,6 +15,5 @@ public class Ejercicio09_VectorCalificaciones {
             System.out.println("Alumno " + (i+1) + ": " + cal[i]);
         }
         System.out.println("Promedio final del grupo: " + String.format("%.2f", promedio));
-        sc.close();
     }
 }
