@@ -15,6 +15,5 @@ public class Ejercicio11_BuscarEnVector {
         }
         if (existe) System.out.println("El número " + x + " existe en el arreglo.");
         else System.out.println("El número " + x + " NO existe en el arreglo.");
-        sc.close();
     }
 }
